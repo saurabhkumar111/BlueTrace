@@ -11,7 +11,6 @@ The project demonstrates:
 - 📊 Log analysis  
 - 🧾 Incident documentation  
 - 🧩 Evidence preservation  
-- 🧠 Professional GitHub reporting practices
 
 ---
 
@@ -35,7 +34,6 @@ This project aligns with a **SOC L1/L2 analyst role** — not penetration testin
   - 🔁 Number of failed attempts  
   - 🔑 Successful login events (if any)  
 - Produce a **professional incident-style report**.  
-- Maintain a **structured GitHub repository** suitable for interviews and demonstrations.
 
 ---
 
