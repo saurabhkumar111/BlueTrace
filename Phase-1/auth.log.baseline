@@ -1,0 +1,1342 @@
+Nov  1 11:17:01 padholikho CRON[1934]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  1 11:17:01 padholikho CRON[1934]: pam_unix(cron:session): session closed for user root
+Nov  1 11:24:10 padholikho sshd[722]: Server listening on 0.0.0.0 port 22.
+Nov  1 11:24:10 padholikho sshd[722]: Server listening on :: port 22.
+Nov  1 11:24:10 padholikho systemd-logind[668]: New seat seat0.
+Nov  1 11:24:10 padholikho systemd-logind[668]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  1 11:24:10 padholikho systemd-logind[668]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  1 11:24:10 padholikho systemd-logind[668]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  1 11:24:31 padholikho login[681]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  1 11:24:31 padholikho systemd-logind[668]: New session 1 of user portal_admin.
+Nov  1 11:24:31 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  1 11:41:08 padholikho CRON[1077]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  1 11:41:08 padholikho CRON[1077]: pam_unix(cron:session): session closed for user root
+Nov  2 14:36:07 padholikho sshd[747]: Server listening on 0.0.0.0 port 22.
+Nov  2 14:36:07 padholikho sshd[747]: Server listening on :: port 22.
+Nov  2 14:36:07 padholikho systemd-logind[682]: New seat seat0.
+Nov  2 14:36:07 padholikho systemd-logind[682]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  2 14:36:07 padholikho systemd-logind[682]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  2 14:36:07 padholikho systemd-logind[682]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  2 14:38:56 padholikho login[709]: pam_unix(login:auth): check pass; user unknown
+Nov  2 14:38:56 padholikho login[709]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Nov  2 14:38:59 padholikho login[709]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Nov  2 14:39:01 padholikho CRON[979]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 14:39:01 padholikho CRON[979]: pam_unix(cron:session): session closed for user root
+Nov  2 14:39:20 padholikho login[709]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  2 14:39:20 padholikho systemd-logind[682]: New session 2 of user portal_admin.
+Nov  2 14:39:20 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 14:48:24 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip link set enp0s8 up
+Nov  2 14:48:24 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 14:48:24 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:04:37 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip link set enp0s8 up
+Nov  2 15:04:37 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:04:37 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:05:42 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  2 15:05:42 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:06:04 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:09:01 padholikho CRON[1636]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 15:09:01 padholikho CRON[1636]: pam_unix(cron:session): session closed for user root
+Nov  2 15:15:39 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install isc-dhcp-client -y
+Nov  2 15:15:39 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:15:40 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:15:55 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip link set enp0s8 up
+Nov  2 15:15:55 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:15:55 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:17:01 padholikho CRON[1840]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 15:17:01 padholikho CRON[1840]: pam_unix(cron:session): session closed for user root
+Nov  2 15:17:17 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/dhclient enp0s8
+Nov  2 15:17:17 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:17:17 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:18:15 padholikho sshd[1881]: Accepted password for portal_admin from 192.168.56.101 port 56038 ssh2
+Nov  2 15:18:15 padholikho sshd[1881]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 15:18:15 padholikho systemd-logind[682]: New session 6 of user portal_admin.
+Nov  2 15:18:42 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  2 15:18:42 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:18:48 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:18:48 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install -y isc-dhcp-client
+Nov  2 15:18:48 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:18:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:18:49 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip link set enp0s8 up
+Nov  2 15:18:49 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:18:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:18:49 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/dhclient enp0s8
+Nov  2 15:18:49 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:18:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:22:59 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw reset
+Nov  2 15:22:59 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 15:23:01 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 15:25:36 padholikho sshd[2408]: Failed password for portal_admin from 192.168.56.101 port 51582 ssh2
+Nov  2 15:25:38 padholikho sshd[2408]: Connection closed by authenticating user portal_admin 192.168.56.101 port 51582 [preauth]
+Nov  2 16:58:27 padholikho sshd[746]: Server listening on 0.0.0.0 port 22.
+Nov  2 16:58:27 padholikho sshd[746]: Server listening on :: port 22.
+Nov  2 16:58:27 padholikho systemd-logind[682]: New seat seat0.
+Nov  2 16:58:27 padholikho systemd-logind[682]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  2 16:58:27 padholikho systemd-logind[682]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  2 16:58:27 padholikho systemd-logind[682]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  2 16:58:49 padholikho login[697]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  2 16:58:49 padholikho systemd-logind[682]: New session 1 of user portal_admin.
+Nov  2 16:58:49 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 17:06:06 padholikho sshd[729]: Server listening on 0.0.0.0 port 22.
+Nov  2 17:06:06 padholikho sshd[729]: Server listening on :: port 22.
+Nov  2 17:06:06 padholikho systemd-logind[678]: New seat seat0.
+Nov  2 17:06:06 padholikho systemd-logind[678]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  2 17:06:06 padholikho systemd-logind[678]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  2 17:06:06 padholikho systemd-logind[678]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  2 17:06:28 padholikho login[697]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  2 17:06:28 padholikho systemd-logind[678]: New session 1 of user portal_admin.
+Nov  2 17:06:28 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 17:06:51 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/dhclient -v
+Nov  2 17:06:51 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 17:06:52 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 17:07:17 padholikho sshd[1128]: Accepted password for portal_admin from 192.168.56.101 port 53144 ssh2
+Nov  2 17:07:17 padholikho sshd[1128]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 17:07:17 padholikho systemd-logind[678]: New session 3 of user portal_admin.
+Nov  2 17:07:20 padholikho sshd[1175]: Received disconnect from 192.168.56.101 port 53144:11: disconnected by user
+Nov  2 17:07:20 padholikho sshd[1175]: Disconnected from user portal_admin 192.168.56.101 port 53144
+Nov  2 17:07:20 padholikho sshd[1128]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  2 17:07:20 padholikho systemd-logind[678]: Session 3 logged out. Waiting for processes to exit.
+Nov  2 17:07:20 padholikho systemd-logind[678]: Removed session 3.
+Nov  2 17:09:01 padholikho CRON[1186]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 17:09:01 padholikho CRON[1186]: pam_unix(cron:session): session closed for user root
+Nov  2 17:17:01 padholikho CRON[1277]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 17:17:01 padholikho CRON[1277]: pam_unix(cron:session): session closed for user root
+Nov  2 17:33:05 padholikho systemd-logind[679]: New seat seat0.
+Nov  2 17:33:05 padholikho sshd[730]: Server listening on 0.0.0.0 port 22.
+Nov  2 17:33:05 padholikho sshd[730]: Server listening on :: port 22.
+Nov  2 17:33:05 padholikho systemd-logind[679]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  2 17:33:05 padholikho systemd-logind[679]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  2 17:33:05 padholikho systemd-logind[679]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  2 17:35:16 padholikho login[717]: pam_unix(login:auth): check pass; user unknown
+Nov  2 17:35:16 padholikho login[717]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Nov  2 17:35:20 padholikho login[717]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Nov  2 17:35:33 padholikho login[717]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  2 17:35:33 padholikho systemd-logind[679]: New session 1 of user portal_admin.
+Nov  2 17:35:33 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 17:35:53 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/passwd portal_admin
+Nov  2 17:35:53 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 17:36:13 padholikho passwd[1050]: pam_unix(passwd:chauthtok): password changed for portal_admin
+Nov  2 17:36:13 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:02:07 padholikho sshd[742]: Server listening on 0.0.0.0 port 22.
+Nov  2 18:02:07 padholikho sshd[742]: Server listening on :: port 22.
+Nov  2 18:02:07 padholikho systemd-logind[680]: New seat seat0.
+Nov  2 18:02:07 padholikho systemd-logind[680]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  2 18:02:07 padholikho systemd-logind[680]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  2 18:02:07 padholikho systemd-logind[680]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  2 18:02:34 padholikho login[689]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  2 18:02:34 padholikho systemd-logind[680]: New session 1 of user portal_admin.
+Nov  2 18:02:34 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 18:03:58 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/dhclient -v
+Nov  2 18:03:58 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:04:02 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:04:57 padholikho sshd[1215]: Accepted password for portal_admin from 192.168.56.101 port 60350 ssh2
+Nov  2 18:04:57 padholikho sshd[1215]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  2 18:04:57 padholikho systemd-logind[680]: New session 3 of user portal_admin.
+Nov  2 18:05:42 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install ufw -y
+Nov  2 18:05:42 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:05:44 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:05:52 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/sysctl.conf
+Nov  2 18:05:52 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:09:01 padholikho CRON[1360]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 18:09:01 padholikho CRON[1360]: pam_unix(cron:session): session closed for user root
+Nov  2 18:17:01 padholikho CRON[1431]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 18:17:01 padholikho CRON[1431]: pam_unix(cron:session): session closed for user root
+Nov  2 18:18:08 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:18:54 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/default/ufw
+Nov  2 18:18:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:20:02 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:20:16 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ufw/before.rules
+Nov  2 18:20:16 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:25:19 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:25:57 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw reset
+Nov  2 18:25:57 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:25:59 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:26:23 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw default deny incoming
+Nov  2 18:26:23 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:26:23 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:26:38 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw default allow outgoing
+Nov  2 18:26:38 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:26:39 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:27:01 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow in on enp0s8
+Nov  2 18:27:01 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:27:01 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:27:10 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow out on enp0s3
+Nov  2 18:27:10 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:27:11 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:27:21 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow from 192.168.56.101 to any port 22 proto tcp
+Nov  2 18:27:21 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:27:21 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:27:43 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Nov  2 18:27:43 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:27:47 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:27:57 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Nov  2 18:27:57 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:27:57 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:30:53 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sysctl -p
+Nov  2 18:30:53 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:30:53 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:31:05 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+Nov  2 18:31:05 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:31:05 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:31:44 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install iptables-persistent -y
+Nov  2 18:31:44 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:32:20 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:32:26 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/netfilter-persistent save
+Nov  2 18:32:26 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:32:26 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:34:32 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -L -n -v
+Nov  2 18:34:32 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:34:32 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:35:39 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE
+Nov  2 18:35:39 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:35:39 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:35:49 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -A POSTROUTING -o enp0s3 -j MASQUERADE
+Nov  2 18:35:49 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:35:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:35:59 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/sh -c 'iptables-save > /etc/iptables.up.rules'
+Nov  2 18:36:00 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:36:00 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:36:16 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables-restore
+Nov  2 18:36:16 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:36:16 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 18:39:01 padholikho CRON[2187]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  2 18:39:01 padholikho CRON[2187]: pam_unix(cron:session): session closed for user root
+Nov  2 18:50:02 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tcpdump -n -i enp0s3 host 8.8.8.8 or host 192.168.56.101
+Nov  2 18:50:02 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  2 18:50:29 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  2 19:21:17 padholikho systemd-logind[2447]: New seat seat0.
+Nov  2 19:21:17 padholikho systemd-logind[2447]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  2 19:21:17 padholikho systemd-logind[2447]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  2 19:21:17 padholikho systemd-logind[2447]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  2 19:21:17 padholikho systemd-logind[2447]: New session 1 of user portal_admin.
+Nov  2 19:21:17 padholikho systemd-logind[2447]: New session 3 of user portal_admin.
+Nov  3 03:55:46 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Nov  3 03:55:46 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 03:55:47 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 03:56:21 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+Nov  3 03:56:21 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 03:56:22 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 03:56:36 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ufw
+Nov  3 03:56:36 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 03:57:08 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 04:12:15 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -L -n -v --line-numbers
+Nov  3 04:12:15 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 04:12:15 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 04:17:01 padholikho CRON[2890]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 04:17:01 padholikho CRON[2890]: pam_unix(cron:session): session closed for user root
+Nov  3 04:22:49 padholikho systemd-logind[2951]: New seat seat0.
+Nov  3 04:22:49 padholikho systemd-logind[2951]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  3 04:22:49 padholikho systemd-logind[2951]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  3 04:22:49 padholikho systemd-logind[2951]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  3 04:22:49 padholikho systemd-logind[2951]: New session 1 of user portal_admin.
+Nov  3 04:22:49 padholikho systemd-logind[2951]: New session 3 of user portal_admin.
+Nov  3 05:21:23 padholikho systemd-logind[3253]: New seat seat0.
+Nov  3 05:21:23 padholikho systemd-logind[3253]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  3 05:21:23 padholikho systemd-logind[3253]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  3 05:21:23 padholikho systemd-logind[3253]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  3 05:21:23 padholikho systemd-logind[3253]: New session 1 of user portal_admin.
+Nov  3 05:21:23 padholikho systemd-logind[3253]: New session 3 of user portal_admin.
+Nov  3 05:52:34 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+Nov  3 05:52:34 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:52:34 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:52:43 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw delete 1
+Nov  3 05:52:43 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:52:46 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:53:00 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow from 192.168.56.101 to any port 22
+Nov  3 05:53:00 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:53:01 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:53:07 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow 80/tcp
+Nov  3 05:53:07 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:53:08 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:53:15 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow 443/tcp
+Nov  3 05:53:15 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:53:15 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:53:32 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Nov  3 05:53:32 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:53:33 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:53:39 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+Nov  3 05:53:39 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:53:39 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:57:54 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw delete 6
+Nov  3 05:57:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:57:56 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 05:58:00 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw delete 3
+Nov  3 05:58:00 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 05:58:02 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 06:02:34 padholikho sshd[3733]: Accepted password for portal_admin from 192.168.56.101 port 33536 ssh2
+Nov  3 06:02:34 padholikho sshd[3733]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 06:02:34 padholikho systemd-logind[3253]: New session 8 of user portal_admin.
+Nov  3 06:02:47 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+Nov  3 06:02:47 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 06:02:48 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 06:02:54 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw delete 6
+Nov  3 06:02:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 06:02:56 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 06:02:58 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw delete 3
+Nov  3 06:02:58 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 06:03:00 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 06:09:01 padholikho CRON[3959]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 06:09:01 padholikho CRON[3959]: pam_unix(cron:session): session closed for user root
+Nov  3 06:17:01 padholikho CRON[4043]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 06:17:01 padholikho CRON[4043]: pam_unix(cron:session): session closed for user root
+Nov  3 06:25:01 padholikho CRON[4064]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 06:25:02 padholikho CRON[4064]: pam_unix(cron:session): session closed for user root
+Nov  3 06:38:59 padholikho sshd[4138]: Failed password for portal_admin from 192.168.56.102 port 53794 ssh2
+Nov  3 06:39:00 padholikho sshd[4138]: Connection closed by authenticating user portal_admin 192.168.56.102 port 53794 [preauth]
+Nov  3 06:39:01 padholikho CRON[4204]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 06:39:01 padholikho CRON[4204]: pam_unix(cron:session): session closed for user root
+Nov  3 06:40:27 padholikho sshd[4208]: Failed password for portal_admin from 192.168.56.101 port 42192 ssh2
+Nov  3 06:40:29 padholikho sshd[4208]: Connection closed by authenticating user portal_admin 192.168.56.101 port 42192 [preauth]
+Nov  3 06:41:38 padholikho sudo: pam_unix(sudo:auth): authentication failure; logname=portal_admin uid=1000 euid=0 tty=/dev/pts/1 ruser=portal_admin rhost=  user=portal_admin
+Nov  3 06:41:59 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/chown -R portal_admin:portal_admin /home/portal_admin/.ssh
+Nov  3 06:41:59 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 06:41:59 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 06:42:06 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 06:42:06 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 06:48:12 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 06:48:21 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov  3 06:48:21 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 06:48:21 padholikho sshd[742]: Received signal 15; terminating.
+Nov  3 06:48:21 padholikho sshd[4257]: Server listening on 0.0.0.0 port 22.
+Nov  3 06:48:21 padholikho sshd[4257]: Server listening on :: port 22.
+Nov  3 06:48:21 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 06:49:04 padholikho sshd[4259]: Connection closed by authenticating user portal_admin 192.168.56.101 port 37000 [preauth]
+Nov  3 07:09:01 padholikho CRON[4330]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 07:09:01 padholikho CRON[4330]: pam_unix(cron:session): session closed for user root
+Nov  3 07:10:12 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov  3 07:10:12 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 07:10:12 padholikho sshd[4257]: Received signal 15; terminating.
+Nov  3 07:10:12 padholikho sshd[4406]: Server listening on 0.0.0.0 port 22.
+Nov  3 07:10:12 padholikho sshd[4406]: Server listening on :: port 22.
+Nov  3 07:10:12 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 07:12:57 padholikho sshd[4413]: Accepted publickey for portal_admin from 192.168.56.101 port 51132 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 07:12:57 padholikho sshd[4413]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 07:12:57 padholikho systemd-logind[3253]: New session 14 of user portal_admin.
+Nov  3 07:13:14 padholikho sshd[4512]: Received disconnect from 192.168.56.101 port 51132:11: disconnected by user
+Nov  3 07:13:14 padholikho sshd[4512]: Disconnected from user portal_admin 192.168.56.101 port 51132
+Nov  3 07:13:14 padholikho sshd[4413]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 07:13:14 padholikho systemd-logind[3253]: Session 14 logged out. Waiting for processes to exit.
+Nov  3 07:13:14 padholikho systemd-logind[3253]: Removed session 14.
+Nov  3 07:16:39 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 07:16:39 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 07:17:01 padholikho CRON[4543]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 07:17:01 padholikho CRON[4543]: pam_unix(cron:session): session closed for user root
+Nov  3 07:17:50 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 07:17:55 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov  3 07:17:55 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 07:17:55 padholikho sshd[4406]: Received signal 15; terminating.
+Nov  3 07:17:55 padholikho sshd[4551]: Server listening on 0.0.0.0 port 22.
+Nov  3 07:17:55 padholikho sshd[4551]: Server listening on :: port 22.
+Nov  3 07:17:55 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 07:18:38 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 07:18:38 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 07:18:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 07:19:24 padholikho sshd[4573]: Connection closed by authenticating user portal_admin 192.168.56.101 port 36374 [preauth]
+Nov  3 07:19:30 padholikho sshd[4575]: Connection closed by authenticating user portal_admin 192.168.56.101 port 47214 [preauth]
+Nov  3 07:21:59 padholikho sshd[4577]: Connection closed by authenticating user portal_admin 192.168.56.101 port 47944 [preauth]
+Nov  3 07:22:45 padholikho sshd[4579]: Accepted password for portal_admin from 192.168.56.101 port 52800 ssh2
+Nov  3 07:22:45 padholikho sshd[4579]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 07:22:45 padholikho systemd-logind[3253]: New session 16 of user portal_admin.
+Nov  3 07:22:49 padholikho sshd[4637]: Received disconnect from 192.168.56.101 port 52800:11: disconnected by user
+Nov  3 07:22:49 padholikho sshd[4637]: Disconnected from user portal_admin 192.168.56.101 port 52800
+Nov  3 07:22:49 padholikho sshd[4579]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 07:22:49 padholikho systemd-logind[3253]: Session 16 logged out. Waiting for processes to exit.
+Nov  3 07:22:49 padholikho systemd-logind[3253]: Removed session 16.
+Nov  3 07:39:01 padholikho CRON[4724]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 07:39:02 padholikho CRON[4724]: pam_unix(cron:session): session closed for user root
+Nov  3 08:09:01 padholikho CRON[4906]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 08:09:01 padholikho CRON[4906]: pam_unix(cron:session): session closed for user root
+Nov  3 08:12:21 padholikho systemd-logind[4989]: New seat seat0.
+Nov  3 08:12:21 padholikho systemd-logind[4989]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  3 08:12:21 padholikho systemd-logind[4989]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  3 08:12:21 padholikho systemd-logind[4989]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  3 08:12:21 padholikho systemd-logind[4989]: New session 3 of user portal_admin.
+Nov  3 08:12:21 padholikho systemd-logind[4989]: New session 1 of user portal_admin.
+Nov  3 08:12:21 padholikho systemd-logind[4989]: New session 8 of user portal_admin.
+Nov  3 08:17:01 padholikho CRON[5017]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 08:17:01 padholikho CRON[5017]: pam_unix(cron:session): session closed for user root
+Nov  3 08:36:56 padholikho systemd-logind[5113]: New seat seat0.
+Nov  3 08:36:56 padholikho systemd-logind[5113]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  3 08:36:56 padholikho systemd-logind[5113]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  3 08:36:56 padholikho systemd-logind[5113]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  3 08:36:56 padholikho systemd-logind[5113]: New session 8 of user portal_admin.
+Nov  3 08:36:56 padholikho systemd-logind[5113]: New session 3 of user portal_admin.
+Nov  3 08:36:56 padholikho systemd-logind[5113]: New session 1 of user portal_admin.
+Nov  3 08:37:45 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov  3 08:37:45 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 08:37:45 padholikho sshd[4551]: Received signal 15; terminating.
+Nov  3 08:37:45 padholikho sshd[5192]: Server listening on 0.0.0.0 port 22.
+Nov  3 08:37:45 padholikho sshd[5192]: Server listening on :: port 22.
+Nov  3 08:37:45 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 08:39:01 padholikho CRON[5196]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 08:39:01 padholikho CRON[5196]: pam_unix(cron:session): session closed for user root
+Nov  3 08:45:29 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov  3 08:45:29 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 08:45:29 padholikho sshd[5192]: Received signal 15; terminating.
+Nov  3 08:45:29 padholikho sshd[5271]: Server listening on 0.0.0.0 port 22.
+Nov  3 08:45:29 padholikho sshd[5271]: Server listening on :: port 22.
+Nov  3 08:45:29 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 08:45:35 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov  3 08:45:35 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 08:46:28 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 08:46:30 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 08:46:30 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 08:48:19 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 08:49:16 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 08:49:16 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 08:49:44 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 08:49:49 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov  3 08:49:49 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 08:49:49 padholikho sshd[5271]: Received signal 15; terminating.
+Nov  3 08:49:49 padholikho sshd[5307]: Server listening on 0.0.0.0 port 22.
+Nov  3 08:49:49 padholikho sshd[5307]: Server listening on :: port 22.
+Nov  3 08:49:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 08:49:58 padholikho sshd[5309]: Accepted publickey for portal_admin from 192.168.56.101 port 32788 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 08:49:58 padholikho sshd[5309]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 08:49:58 padholikho systemd-logind[5113]: New session 21 of user portal_admin.
+Nov  3 09:06:52 padholikho systemd-logind[5500]: New seat seat0.
+Nov  3 09:06:52 padholikho systemd-logind[5500]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  3 09:06:52 padholikho systemd-logind[5500]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  3 09:06:52 padholikho systemd-logind[5500]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  3 09:06:52 padholikho systemd-logind[5500]: New session 1 of user portal_admin.
+Nov  3 09:06:52 padholikho systemd-logind[5500]: New session 21 of user portal_admin.
+Nov  3 09:06:52 padholikho systemd-logind[5500]: New session 3 of user portal_admin.
+Nov  3 09:06:52 padholikho systemd-logind[5500]: New session 8 of user portal_admin.
+Nov  3 09:09:01 padholikho CRON[5594]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 09:09:01 padholikho CRON[5594]: pam_unix(cron:session): session closed for user root
+Nov  3 09:16:54 padholikho sshd[5408]: Received disconnect from 192.168.56.101 port 32788:11: disconnected by user
+Nov  3 09:16:54 padholikho sshd[5408]: Disconnected from user portal_admin 192.168.56.101 port 32788
+Nov  3 09:16:54 padholikho sshd[5309]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 09:16:54 padholikho systemd-logind[5500]: Session 21 logged out. Waiting for processes to exit.
+Nov  3 09:16:54 padholikho systemd-logind[5500]: Removed session 21.
+Nov  3 09:16:56 padholikho sshd[5678]: Accepted publickey for portal_admin from 192.168.56.101 port 47520 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 09:16:56 padholikho sshd[5678]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 09:16:56 padholikho systemd-logind[5500]: New session 23 of user portal_admin.
+Nov  3 09:16:59 padholikho sshd[5736]: Received disconnect from 192.168.56.101 port 47520:11: disconnected by user
+Nov  3 09:16:59 padholikho sshd[5736]: Disconnected from user portal_admin 192.168.56.101 port 47520
+Nov  3 09:16:59 padholikho sshd[5678]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 09:16:59 padholikho systemd-logind[5500]: Session 23 logged out. Waiting for processes to exit.
+Nov  3 09:16:59 padholikho systemd-logind[5500]: Removed session 23.
+Nov  3 09:17:01 padholikho CRON[5747]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 09:17:01 padholikho CRON[5747]: pam_unix(cron:session): session closed for user root
+Nov  3 09:17:21 padholikho sshd[5750]: Accepted publickey for portal_admin from 192.168.56.101 port 40298 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 09:17:21 padholikho sshd[5750]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 09:17:21 padholikho systemd-logind[5500]: New session 25 of user portal_admin.
+Nov  3 09:17:43 padholikho sshd[5810]: Accepted password for portal_admin from 192.168.56.102 port 45776 ssh2
+Nov  3 09:17:43 padholikho sshd[5810]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 09:17:43 padholikho systemd-logind[5500]: New session 26 of user portal_admin.
+Nov  3 09:17:47 padholikho sshd[5858]: Received disconnect from 192.168.56.102 port 45776:11: disconnected by user
+Nov  3 09:17:47 padholikho sshd[5858]: Disconnected from user portal_admin 192.168.56.102 port 45776
+Nov  3 09:17:47 padholikho sshd[5810]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 09:17:47 padholikho systemd-logind[5500]: Session 26 logged out. Waiting for processes to exit.
+Nov  3 09:17:47 padholikho systemd-logind[5500]: Removed session 26.
+Nov  3 09:18:44 padholikho sshd[5798]: Received disconnect from 192.168.56.101 port 40298:11: disconnected by user
+Nov  3 09:18:44 padholikho sshd[5798]: Disconnected from user portal_admin 192.168.56.101 port 40298
+Nov  3 09:18:44 padholikho sshd[5750]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 09:18:44 padholikho systemd-logind[5500]: Session 25 logged out. Waiting for processes to exit.
+Nov  3 09:18:44 padholikho systemd-logind[5500]: Removed session 25.
+Nov  3 09:18:57 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 09:18:57 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 09:19:26 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 09:20:33 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 09:20:33 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 09:35:57 padholikho systemd-logind[5952]: New seat seat0.
+Nov  3 09:35:57 padholikho systemd-logind[5952]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  3 09:35:57 padholikho systemd-logind[5952]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  3 09:35:57 padholikho systemd-logind[5952]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  3 09:35:57 padholikho systemd-logind[5952]: New session 1 of user portal_admin.
+Nov  3 09:35:57 padholikho systemd-logind[5952]: New session 8 of user portal_admin.
+Nov  3 09:35:57 padholikho systemd-logind[5952]: New session 3 of user portal_admin.
+Nov  3 09:38:40 padholikho sshd[5971]: Accepted publickey for portal_admin from 192.168.56.101 port 49478 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 09:38:40 padholikho sshd[5971]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 09:38:40 padholikho systemd-logind[5952]: New session 27 of user portal_admin.
+Nov  3 09:39:01 padholikho CRON[6039]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 09:39:01 padholikho CRON[6039]: pam_unix(cron:session): session closed for user root
+Nov  3 09:40:03 padholikho sshd[6029]: Received disconnect from 192.168.56.101 port 49478:11: disconnected by user
+Nov  3 09:40:03 padholikho sshd[6029]: Disconnected from user portal_admin 192.168.56.101 port 49478
+Nov  3 09:40:03 padholikho sshd[5971]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 09:40:03 padholikho systemd-logind[5952]: Session 27 logged out. Waiting for processes to exit.
+Nov  3 09:40:03 padholikho systemd-logind[5952]: Removed session 27.
+Nov  3 09:40:29 padholikho sshd[6090]: Accepted publickey for portal_admin from 192.168.56.101 port 57940 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 09:40:29 padholikho sshd[6090]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 09:40:29 padholikho systemd-logind[5952]: New session 29 of user portal_admin.
+Nov  3 09:43:14 padholikho sudo: pam_unix(sudo:auth): conversation failed
+Nov  3 09:43:14 padholikho sudo: pam_unix(sudo:auth): auth could not identify password for [portal_admin]
+Nov  3 09:45:35 padholikho sshd[6148]: Received disconnect from 192.168.56.101 port 57940:11: disconnected by user
+Nov  3 09:45:35 padholikho sshd[6148]: Disconnected from user portal_admin 192.168.56.101 port 57940
+Nov  3 09:45:35 padholikho sshd[6090]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 09:45:35 padholikho systemd-logind[5952]: Session 29 logged out. Waiting for processes to exit.
+Nov  3 09:45:35 padholikho systemd-logind[5952]: Removed session 29.
+Nov  3 09:45:42 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 09:46:10 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 09:46:10 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 09:46:41 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 09:47:27 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Nov  3 09:47:27 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 09:47:39 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 09:47:45 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Nov  3 09:47:45 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 09:47:45 padholikho sshd[5307]: Received signal 15; terminating.
+Nov  3 09:47:45 padholikho sshd[6221]: Server listening on 0.0.0.0 port 22.
+Nov  3 09:47:45 padholikho sshd[6221]: Server listening on :: port 22.
+Nov  3 09:47:45 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 09:47:51 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov  3 09:47:51 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 10:11:36 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 10:17:01 padholikho CRON[6476]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 10:17:01 padholikho CRON[6476]: pam_unix(cron:session): session closed for user root
+Nov  3 10:24:35 padholikho sshd[6497]: Accepted publickey for portal_admin from 192.168.56.101 port 41432 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 10:24:35 padholikho sshd[6497]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 10:24:35 padholikho systemd-logind[5952]: New session 31 of user portal_admin.
+Nov  3 11:43:40 padholikho sshd[6596]: Received disconnect from 192.168.56.101 port 41432:11: disconnected by user
+Nov  3 11:43:40 padholikho sshd[6596]: Disconnected from user portal_admin 192.168.56.101 port 41432
+Nov  3 11:43:40 padholikho sshd[6497]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 11:43:40 padholikho systemd-logind[5952]: Session 31 logged out. Waiting for processes to exit.
+Nov  3 11:43:40 padholikho systemd-logind[5952]: Removed session 31.
+Nov  3 11:48:21 padholikho sshd[1272]: Received disconnect from 192.168.56.101 port 60350:11: disconnected by user
+Nov  3 11:48:21 padholikho sshd[1272]: Disconnected from user portal_admin 192.168.56.101 port 60350
+Nov  3 11:48:21 padholikho sshd[1215]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 11:48:22 padholikho systemd-logind[5952]: Session 3 logged out. Waiting for processes to exit.
+Nov  3 11:48:22 padholikho systemd-logind[5952]: Removed session 3.
+Nov  3 11:48:34 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status
+Nov  3 11:48:34 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:48:35 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 11:48:54 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow OpenSSH
+Nov  3 11:48:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:48:54 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 11:49:00 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow 80/tcp
+Nov  3 11:49:00 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:49:00 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 11:49:05 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw allow 443/tcp
+Nov  3 11:49:05 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:49:05 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 11:49:17 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw default deny incoming
+Nov  3 11:49:17 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:49:22 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 11:49:25 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw default allow outgoing
+Nov  3 11:49:25 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:49:29 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 11:49:33 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw enable
+Nov  3 11:49:33 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:49:36 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 11:49:44 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status verbose
+Nov  3 11:49:44 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 11:49:44 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:09:01 padholikho CRON[8057]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 12:09:01 padholikho CRON[8057]: pam_unix(cron:session): session closed for user root
+Nov  3 12:17:01 padholikho CRON[8127]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 12:17:01 padholikho CRON[8127]: pam_unix(cron:session): session closed for user root
+Nov  3 12:19:54 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt update
+Nov  3 12:19:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:20:16 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:20:21 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install fail2ban -y
+Nov  3 12:20:21 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:20:37 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:22:35 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/cp /etc/fail2ban/jail.conf /etc/fail2ban/jail.local
+Nov  3 12:22:35 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:22:35 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:23:01 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+Nov  3 12:23:01 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:25:58 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:26:06 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+Nov  3 12:26:06 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:26:06 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:26:12 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban
+Nov  3 12:26:12 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:27:01 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:27:05 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client -d
+Nov  3 12:27:05 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:27:05 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:27:32 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+Nov  3 12:27:32 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:28:34 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:28:36 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+Nov  3 12:28:36 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:33:31 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:34:03 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+Nov  3 12:34:03 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:34:03 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:34:11 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban --no-pager
+Nov  3 12:34:11 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:34:11 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:34:19 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+Nov  3 12:34:19 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:34:19 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:34:25 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status sshd
+Nov  3 12:34:25 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:34:25 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:36:47 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+Nov  3 12:36:47 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:37:14 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:37:19 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+Nov  3 12:37:19 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:37:20 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:37:26 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+Nov  3 12:37:26 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:37:27 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:37:58 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban --no-pager
+Nov  3 12:37:58 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:37:58 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:38:20 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client -d
+Nov  3 12:38:20 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:38:20 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:38:47 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/fail2ban/jail.local
+Nov  3 12:38:47 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:39:01 padholikho CRON[8936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 12:39:01 padholikho CRON[8936]: pam_unix(cron:session): session closed for user root
+Nov  3 12:46:14 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:46:52 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+Nov  3 12:46:52 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:46:52 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:47:04 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban --no-pager
+Nov  3 12:47:04 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:47:04 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:47:13 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+Nov  3 12:47:13 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:47:14 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:47:41 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client -d
+Nov  3 12:47:41 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:47:41 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:48:00 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano -c /etc/fail2ban/jail.local
+Nov  3 12:48:00 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:48:47 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:48:57 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart fail2ban
+Nov  3 12:48:57 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:48:57 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:49:03 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status fail2ban --no-pager
+Nov  3 12:49:03 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:49:03 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 12:49:09 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client status
+Nov  3 12:49:09 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 12:49:09 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:09:01 padholikho CRON[9153]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 13:09:01 padholikho CRON[9153]: pam_unix(cron:session): session closed for user root
+Nov  3 13:11:37 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install certbot python3-certbot-apache -y
+Nov  3 13:11:37 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:11:59 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:12:53 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/certbot --apache
+Nov  3 13:12:53 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:15:53 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:17:02 padholikho CRON[9845]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 13:17:02 padholikho CRON[9845]: pam_unix(cron:session): session closed for user root
+Nov  3 13:39:02 padholikho CRON[9936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 13:39:02 padholikho CRON[9936]: pam_unix(cron:session): session closed for user root
+Nov  3 13:54:31 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/ss -tuln
+Nov  3 13:54:31 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:54:31 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:54:40 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/apache2ctl -M
+Nov  3 13:54:40 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:54:40 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:55:32 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/a2enmod ssl
+Nov  3 13:55:32 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:55:33 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:55:38 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl reload apache2
+Nov  3 13:55:38 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:55:38 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:55:43 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/apache2ctl -M
+Nov  3 13:55:43 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:55:44 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:56:09 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/mkdir -p /etc/apache2/ssl
+Nov  3 13:56:09 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:56:09 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:56:29 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout /etc/apache2/ssl/firenetx.key -out /etc/apache2/ssl/firenetx.crt -subj /C=IN/ST=Delhi/L=Gurgaon/O=FireNetX/OU=Lab/CN=192.168.56.102
+Nov  3 13:56:29 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:56:29 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:57:14 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tee /etc/apache2/sites-available/firenetx-ssl.conf
+Nov  3 13:57:14 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:57:14 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:57:24 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/a2ensite firenetx-ssl.conf
+Nov  3 13:57:24 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:57:24 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:57:30 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl reload apache2
+Nov  3 13:57:30 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:57:30 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 13:57:36 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status apache2 --no-pager
+Nov  3 13:57:36 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 13:57:36 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 14:03:23 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/apache2/sites-available/000-default.conf
+Nov  3 14:03:23 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 14:04:10 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 14:04:16 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart apache2
+Nov  3 14:04:16 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 14:04:16 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 14:09:01 padholikho CRON[10206]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 14:09:01 padholikho CRON[10206]: pam_unix(cron:session): session closed for user root
+Nov  3 14:17:01 padholikho CRON[10291]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 14:17:01 padholikho CRON[10291]: pam_unix(cron:session): session closed for user root
+Nov  3 14:39:01 padholikho CRON[10729]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 14:39:01 padholikho CRON[10729]: pam_unix(cron:session): session closed for user root
+Nov  3 15:09:01 padholikho CRON[10903]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 15:09:01 padholikho CRON[10903]: pam_unix(cron:session): session closed for user root
+Nov  3 15:20:39 padholikho systemd-logind[11034]: New seat seat0.
+Nov  3 15:20:39 padholikho systemd-logind[11034]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  3 15:20:39 padholikho systemd-logind[11034]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  3 15:20:39 padholikho systemd-logind[11034]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  3 15:20:39 padholikho systemd-logind[11034]: New session 1 of user portal_admin.
+Nov  3 15:20:39 padholikho systemd-logind[11034]: New session 8 of user portal_admin.
+Nov  3 15:24:48 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ufw status numbered
+Nov  3 15:24:48 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:24:48 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:24:48 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/chmod 600 /home/portal_admin/FireNetX_artifacts/ufw_status_2025-11-03_15-24-40.txt
+Nov  3 15:24:48 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:24:48 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:25:08 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sshd -T
+Nov  3 15:25:08 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:25:08 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:25:08 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/chmod 600 /home/portal_admin/FireNetX_artifacts/sshd_effective_config_2025-11-03_15-25-08.txt
+Nov  3 15:25:08 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:25:08 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:25:53 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/portal_admin/FireNetX_artifacts/authlog_initial_2025-11-03_15-25-53.log
+Nov  3 15:25:53 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:25:53 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:26:03 padholikho sudo: portal_admin : TTY=pts/1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/cp /var/log/apache2/access.log /var/log/apache2/access.log.1 /var/log/apache2/access.log.2.gz /var/log/apache2/access.log.3.gz /var/log/apache2/access_ssl.log /var/log/apache2/error.log /var/log/apache2/error.log.1 /var/log/apache2/error.log.2.gz /var/log/apache2/error.log.3.gz /var/log/apache2/error.log.4.gz /var/log/apache2/error_ssl.log /var/log/apache2/other_vhosts_access.log /home/portal_admin/FireNetX_artifacts/
+Nov  3 15:26:03 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:26:03 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:31:54 padholikho sshd[11189]: Accepted publickey for portal_admin from 192.168.56.101 port 43194 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 15:31:54 padholikho sshd[11189]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 15:31:54 padholikho systemd-logind[11034]: New session 42 of user portal_admin.
+Nov  3 15:32:05 padholikho sshd[11289]: Received disconnect from 192.168.56.101 port 43194:11: disconnected by user
+Nov  3 15:32:05 padholikho sshd[11289]: Disconnected from user portal_admin 192.168.56.101 port 43194
+Nov  3 15:32:05 padholikho sshd[11189]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 15:32:05 padholikho systemd-logind[11034]: Session 42 logged out. Waiting for processes to exit.
+Nov  3 15:32:05 padholikho systemd-logind[11034]: Removed session 42.
+Nov  3 15:39:05 padholikho CRON[11342]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 15:39:05 padholikho CRON[11342]: pam_unix(cron:session): session closed for user root
+Nov  3 15:40:40 padholikho sshd[11397]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=portal_admin
+Nov  3 15:40:42 padholikho sshd[11397]: Failed password for portal_admin from 192.168.56.101 port 58940 ssh2
+Nov  3 15:40:44 padholikho sshd[11397]: Connection closed by authenticating user portal_admin 192.168.56.101 port 58940 [preauth]
+Nov  3 15:40:46 padholikho sshd[11399]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=portal_admin
+Nov  3 15:40:47 padholikho sshd[11399]: Failed password for portal_admin from 192.168.56.101 port 40898 ssh2
+Nov  3 15:40:48 padholikho sshd[11399]: Connection closed by authenticating user portal_admin 192.168.56.101 port 40898 [preauth]
+Nov  3 15:40:49 padholikho sshd[11401]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.101  user=portal_admin
+Nov  3 15:40:50 padholikho sshd[11401]: Failed password for portal_admin from 192.168.56.101 port 40900 ssh2
+Nov  3 15:51:47 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Nov  3 15:51:47 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:52:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:53:12 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/fail2ban-client set sshd unbanip 192.168.56.101
+Nov  3 15:53:12 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 15:53:12 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 15:53:22 padholikho sshd[11496]: Accepted publickey for portal_admin from 192.168.56.101 port 43836 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  3 15:53:22 padholikho sshd[11496]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  3 15:53:22 padholikho systemd-logind[11034]: New session 44 of user portal_admin.
+Nov  3 16:02:12 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/sh -c 'tail -n 200 /var/log/fail2ban.log > ~/FireNetX_artifacts/fail2ban_log_$(date +%F_%H-%M-%S).txt && chmod 600 ~/FireNetX_artifacts/fail2ban_log_*.txt && echo "Saved fail2ban log"'
+Nov  3 16:02:12 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 16:02:12 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 16:02:28 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/sh -c 'fail2ban-client status sshd > ~/FireNetX_artifacts/fail2ban_sshd_status_$(date +%F_%H-%M-%S).txt 2>&1 && chmod 600 ~/FireNetX_artifacts/fail2ban_sshd_status_*.txt && echo "Saved fail2ban status"'
+Nov  3 16:02:28 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 16:02:28 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 16:02:59 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/sh -c 'tail -n 200 /var/log/fail2ban.log > /home/portal_admin/FireNetX_artifacts/fail2ban_log_$(date +%F_%H-%M-%S).txt && chmod 600 /home/portal_admin/FireNetX_artifacts/fail2ban_log_*.txt && echo "Saved fail2ban log"'
+Nov  3 16:02:59 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 16:02:59 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 16:03:29 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/sh -c 'fail2ban-client status sshd > /home/portal_admin/FireNetX_artifacts/fail2ban_sshd_status_$(date +%F_%H-%M-%S).txt 2>&1 && chmod 600 /home/portal_admin/FireNetX_artifacts/fail2ban_sshd_status_*.txt && echo "Saved fail2ban status"'
+Nov  3 16:03:29 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 16:03:29 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 16:09:01 padholikho CRON[11701]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 16:09:01 padholikho CRON[11701]: pam_unix(cron:session): session closed for user root
+Nov  3 16:17:01 padholikho CRON[11721]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 16:17:01 padholikho CRON[11721]: pam_unix(cron:session): session closed for user root
+Nov  3 16:19:22 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/grep -E 'doesnotexist_| 404 ' /var/log/apache2/access.log /var/log/apache2/access.log.1 /var/log/apache2/access.log.2.gz /var/log/apache2/access.log.3.gz
+Nov  3 16:19:22 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 16:19:22 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 16:19:30 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/grep -iE 'modsec|mod_security|badbot|bad bot|bot' /var/log/apache2/access.log /var/log/apache2/access.log.1 /var/log/apache2/access.log.2.gz /var/log/apache2/access.log.3.gz /var/log/apache2/access_ssl.log /var/log/apache2/error.log /var/log/apache2/error.log.1 /var/log/apache2/error.log.2.gz /var/log/apache2/error.log.3.gz /var/log/apache2/error.log.4.gz /var/log/apache2/error_ssl.log /var/log/apache2/other_vhosts_access.log
+Nov  3 16:19:30 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 16:19:30 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 16:19:37 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/chmod 600 /home/portal_admin/FireNetX_artifacts/apache_404s_2025-11-03_16-19-15.txt /home/portal_admin/FireNetX_artifacts/apache_error_badbot_hits_2025-11-03_16-19-30.txt
+Nov  3 16:19:37 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 16:19:37 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 17:17:07 padholikho CRON[11933]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 17:17:07 padholikho CRON[11933]: pam_unix(cron:session): session closed for user root
+Nov  3 17:39:06 padholikho CRON[12007]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 17:39:06 padholikho CRON[12007]: pam_unix(cron:session): session closed for user root
+Nov  3 17:40:30 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/sh -c 'grep -Ei "sshd|fail|Accepted|invalid|authentication" /var/log/auth.log* > /home/portal_admin/FireNetX_artifacts/authlog_relevant_$(date +%F_%H-%M-%S).txt && grep -Ei "404|error|fail|bot|attack|doesnotexist" /var/log/apache2/* >> /home/portal_admin/FireNetX_artifacts/authlog_relevant_$(date +%F_%H-%M-%S).txt && chmod 600 /home/portal_admin/FireNetX_artifacts/authlog_relevant_*.txt && echo "Saved correlated auth+web logs"'
+Nov  3 17:40:30 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 17:40:30 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 17:41:46 padholikho sshd[3733]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  3 17:41:46 padholikho systemd-logind[11034]: Session 8 logged out. Waiting for processes to exit.
+Nov  3 17:41:46 padholikho systemd-logind[11034]: Removed session 8.
+Nov  3 17:50:11 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tar -czvf /home/portal_admin/FireNetX_artifacts_2025-11-03_17-50-11.tar.gz -C /home portal_admin/FireNetX_artifacts
+Nov  3 17:50:11 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 17:50:11 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 17:50:11 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/chmod 600 /home/portal_admin/FireNetX_artifacts_2025-11-03_17-50-11.tar.gz
+Nov  3 17:50:11 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  3 17:50:11 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  3 18:09:43 padholikho CRON[12168]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 18:09:44 padholikho CRON[12168]: pam_unix(cron:session): session closed for user root
+Nov  3 18:17:01 padholikho CRON[12290]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 18:17:01 padholikho CRON[12290]: pam_unix(cron:session): session closed for user root
+Nov  3 18:39:01 padholikho CRON[12392]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 18:39:01 padholikho CRON[12392]: pam_unix(cron:session): session closed for user root
+Nov  3 19:09:01 padholikho CRON[12549]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 19:09:01 padholikho CRON[12549]: pam_unix(cron:session): session closed for user root
+Nov  3 19:17:01 padholikho CRON[12637]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  3 19:17:01 padholikho CRON[12637]: pam_unix(cron:session): session closed for user root
+Nov  4 02:39:02 padholikho CRON[12936]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 02:39:03 padholikho CRON[12936]: pam_unix(cron:session): session closed for user root
+Nov  4 03:09:01 padholikho CRON[13102]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 03:09:01 padholikho CRON[13102]: pam_unix(cron:session): session closed for user root
+Nov  4 03:10:01 padholikho CRON[13155]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 03:10:01 padholikho CRON[13155]: pam_unix(cron:session): session closed for user root
+Nov  4 03:17:01 padholikho CRON[13191]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 03:17:01 padholikho CRON[13191]: pam_unix(cron:session): session closed for user root
+Nov  4 08:43:29 padholikho systemd-logind[13595]: New seat seat0.
+Nov  4 08:43:29 padholikho systemd-logind[13595]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 08:43:29 padholikho systemd-logind[13595]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 08:43:29 padholikho systemd-logind[13595]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  4 08:43:29 padholikho systemd-logind[13595]: New session 44 of user portal_admin.
+Nov  4 08:43:29 padholikho systemd-logind[13595]: New session 1 of user portal_admin.
+Nov  4 09:09:08 padholikho CRON[13789]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 09:09:08 padholikho CRON[13789]: pam_unix(cron:session): session closed for user root
+Nov  4 09:17:01 padholikho CRON[13876]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 09:17:01 padholikho CRON[13876]: pam_unix(cron:session): session closed for user root
+Nov  4 09:39:01 padholikho CRON[13965]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 09:39:01 padholikho CRON[13965]: pam_unix(cron:session): session closed for user root
+Nov  4 10:09:01 padholikho CRON[14136]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 10:09:01 padholikho CRON[14136]: pam_unix(cron:session): session closed for user root
+Nov  4 10:17:01 padholikho CRON[14221]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 10:17:01 padholikho CRON[14221]: pam_unix(cron:session): session closed for user root
+Nov  4 10:39:01 padholikho CRON[14312]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 10:39:01 padholikho CRON[14312]: pam_unix(cron:session): session closed for user root
+Nov  4 11:03:33 padholikho systemd-logind[14483]: New seat seat0.
+Nov  4 11:03:33 padholikho systemd-logind[14483]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  4 11:03:33 padholikho systemd-logind[14483]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  4 11:03:33 padholikho systemd-logind[14483]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  4 11:03:33 padholikho systemd-logind[14483]: New session 44 of user portal_admin.
+Nov  4 11:03:33 padholikho systemd-logind[14483]: New session 1 of user portal_admin.
+Nov  4 11:09:02 padholikho CRON[14567]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 11:09:02 padholikho CRON[14567]: pam_unix(cron:session): session closed for user root
+Nov  4 11:17:01 padholikho CRON[14652]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 11:17:01 padholikho CRON[14652]: pam_unix(cron:session): session closed for user root
+Nov  4 12:00:01 padholikho CRON[14860]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 12:00:01 padholikho CRON[14860]: pam_unix(cron:session): session closed for user root
+Nov  4 12:17:01 padholikho CRON[14981]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 12:17:01 padholikho CRON[14981]: pam_unix(cron:session): session closed for user root
+Nov  4 12:39:01 padholikho CRON[15088]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  4 12:39:01 padholikho CRON[15088]: pam_unix(cron:session): session closed for user root
+Nov  7 05:20:39 padholikho sshd[818]: Server listening on 0.0.0.0 port 22.
+Nov  7 05:20:39 padholikho sshd[818]: Server listening on :: port 22.
+Nov  7 05:20:39 padholikho systemd-logind[750]: New seat seat0.
+Nov  7 05:20:39 padholikho systemd-logind[750]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  7 05:20:39 padholikho systemd-logind[750]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  7 05:20:39 padholikho systemd-logind[750]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  7 05:21:08 padholikho login[757]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  7 05:21:08 padholikho systemd-logind[750]: New session 1 of user portal_admin.
+Nov  7 05:21:08 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  7 05:25:00 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip link set enp0s8 up
+Nov  7 05:25:00 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  7 05:25:00 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  7 05:27:13 padholikho su: pam_unix(su-l:auth): authentication failure; logname=portal_admin uid=1000 euid=0 tty=/dev/tty1 ruser=portal_admin rhost=  user=root
+Nov  7 05:27:16 padholikho su: FAILED SU (to root) portal_admin on tty1
+Nov  7 05:27:29 padholikho su: pam_unix(su-l:auth): authentication failure; logname=portal_admin uid=1000 euid=0 tty=/dev/tty1 ruser=portal_admin rhost=  user=root
+Nov  7 05:27:31 padholikho su: FAILED SU (to root) portal_admin on tty1
+Nov  7 05:28:10 padholikho su: pam_unix(su-l:auth): authentication failure; logname=portal_admin uid=1000 euid=0 tty=/dev/tty1 ruser=portal_admin rhost=  user=root
+Nov  7 05:28:12 padholikho su: FAILED SU (to root) portal_admin on tty1
+Nov  9 14:16:49 padholikho sshd[805]: Server listening on 0.0.0.0 port 22.
+Nov  9 14:16:49 padholikho sshd[805]: Server listening on :: port 22.
+Nov  9 14:16:50 padholikho systemd-logind[755]: New seat seat0.
+Nov  9 14:16:50 padholikho systemd-logind[755]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov  9 14:16:50 padholikho systemd-logind[755]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov  9 14:16:50 padholikho systemd-logind[755]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov  9 14:17:01 padholikho CRON[1052]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  9 14:17:01 padholikho CRON[1052]: pam_unix(cron:session): session closed for user root
+Nov  9 14:17:08 padholikho login[786]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=portal_admin
+Nov  9 14:17:12 padholikho login[786]: FAILED LOGIN (1) on '/dev/tty1' FOR 'portal_admin', Authentication failure
+Nov  9 14:17:24 padholikho login[786]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov  9 14:17:24 padholikho systemd-logind[755]: New session 2 of user portal_admin.
+Nov  9 14:17:24 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  9 14:24:30 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/dhclient enp0s8
+Nov  9 14:24:30 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  9 14:24:30 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  9 14:39:01 padholikho CRON[1283]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  9 14:39:01 padholikho CRON[1283]: pam_unix(cron:session): session closed for user root
+Nov  9 14:55:54 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install curl
+Nov  9 14:55:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  9 14:56:05 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  9 15:09:01 padholikho CRON[1630]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  9 15:09:01 padholikho CRON[1630]: pam_unix(cron:session): session closed for user root
+Nov  9 15:13:42 padholikho sshd[1712]: Accepted publickey for portal_admin from 192.168.56.101 port 54782 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  9 15:13:42 padholikho sshd[1712]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  9 15:13:42 padholikho systemd-logind[755]: New session 6 of user portal_admin.
+Nov  9 15:14:00 padholikho sshd[1769]: Received disconnect from 192.168.56.101 port 54782:11: disconnected by user
+Nov  9 15:14:00 padholikho sshd[1769]: Disconnected from user portal_admin 192.168.56.101 port 54782
+Nov  9 15:14:00 padholikho sshd[1712]: pam_unix(sshd:session): session closed for user portal_admin
+Nov  9 15:14:00 padholikho systemd-logind[755]: Session 6 logged out. Waiting for processes to exit.
+Nov  9 15:14:00 padholikho systemd-logind[755]: Removed session 6.
+Nov  9 15:17:01 padholikho CRON[1783]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  9 15:17:01 padholikho CRON[1783]: pam_unix(cron:session): session closed for user root
+Nov  9 15:21:51 padholikho sshd[1801]: Accepted publickey for portal_admin from 192.168.56.101 port 50294 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov  9 15:21:51 padholikho sshd[1801]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov  9 15:21:51 padholikho systemd-logind[755]: New session 8 of user portal_admin.
+Nov  9 15:26:43 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install traceroute
+Nov  9 15:26:43 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  9 15:26:49 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  9 15:30:01 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip route del default
+Nov  9 15:30:01 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  9 15:30:01 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  9 15:30:12 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip route add default via 10.0.2.2 dev enp0s3
+Nov  9 15:30:12 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  9 15:30:12 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  9 15:30:33 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tcpdump -i enp0s3 icmp
+Nov  9 15:30:33 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov  9 15:31:21 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov  9 15:39:01 padholikho CRON[2181]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov  9 15:39:01 padholikho CRON[2181]: pam_unix(cron:session): session closed for user root
+Nov 10 03:23:26 padholikho sshd[790]: Server listening on 0.0.0.0 port 22.
+Nov 10 03:23:26 padholikho sshd[790]: Server listening on :: port 22.
+Nov 10 03:23:27 padholikho systemd-logind[755]: New seat seat0.
+Nov 10 03:23:27 padholikho systemd-logind[755]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 10 03:23:27 padholikho systemd-logind[755]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 10 03:23:27 padholikho systemd-logind[755]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 10 03:23:46 padholikho login[786]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov 10 03:23:46 padholikho systemd-logind[755]: New session 1 of user portal_admin.
+Nov 10 03:23:46 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov 10 03:39:57 padholikho sshd[816]: Server listening on 0.0.0.0 port 22.
+Nov 10 03:39:57 padholikho sshd[816]: Server listening on :: port 22.
+Nov 10 03:39:57 padholikho systemd-logind[758]: New seat seat0.
+Nov 10 03:39:57 padholikho systemd-logind[758]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 10 03:39:57 padholikho systemd-logind[758]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 10 03:39:57 padholikho systemd-logind[758]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 10 03:41:11 padholikho login[766]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Nov 10 03:41:11 padholikho systemd-logind[758]: New session 1 of user portal_admin.
+Nov 10 03:41:11 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov 10 03:44:37 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/ip link set enp0s8 up
+Nov 10 03:44:37 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:44:37 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:44:45 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/dhclient enp0s8
+Nov 10 03:44:45 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:44:45 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:51:17 padholikho sshd[1245]: Accepted publickey for portal_admin from 192.168.56.101 port 59920 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov 10 03:51:17 padholikho sshd[1245]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov 10 03:51:17 padholikho systemd-logind[758]: New session 3 of user portal_admin.
+Nov 10 03:51:47 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sysctl -w net.ipv4.ip_forward=1
+Nov 10 03:51:47 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:51:47 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:51:55 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tee /etc/sysctl.d/99-ipforward.conf
+Nov 10 03:51:55 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:51:55 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:52:01 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sysctl --system
+Nov 10 03:52:01 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:52:01 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:52:08 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -F
+Nov 10 03:52:08 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:52:08 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:54:52 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+Nov 10 03:54:52 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:54:52 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:55:20 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+Nov 10 03:55:20 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:55:20 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:55:40 padholikho sshd[1245]: pam_unix(sshd:session): session closed for user portal_admin
+Nov 10 03:55:40 padholikho systemd-logind[758]: Session 3 logged out. Waiting for processes to exit.
+Nov 10 03:55:40 padholikho systemd-logind[758]: Removed session 3.
+Nov 10 03:55:44 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -i enp0s8 -j ACCEPT
+Nov 10 03:55:44 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:55:44 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:55:56 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -i lo -j ACCEPT
+Nov 10 03:55:56 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:55:56 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:56:11 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -P INPUT ACCEPT
+Nov 10 03:56:11 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:56:11 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:56:29 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -P FORWARD ACCEPT
+Nov 10 03:56:29 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:56:29 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:56:39 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/root ; USER=root ; COMMAND=/bin/bash --login -c 'OUTPUT ACCEPT'
+Nov 10 03:56:39 padholikho sudo: pam_unix(sudo-i:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:56:39 padholikho sudo: pam_unix(sudo-i:session): session closed for user root
+Nov 10 03:56:53 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -P OUTPUT ACCEPT
+Nov 10 03:56:53 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:56:53 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:57:03 padholikho sshd[1376]: Accepted publickey for portal_admin from 192.168.56.101 port 41118 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Nov 10 03:57:03 padholikho sshd[1376]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Nov 10 03:57:03 padholikho systemd-logind[758]: New session 4 of user portal_admin.
+Nov 10 03:58:41 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sysctl -w net.ipv4.ip_forward=1
+Nov 10 03:58:41 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:58:41 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:58:48 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -A POSTROUTING -s 192.168.56.0/24 -o enp0s3 -j MASQUERADE
+Nov 10 03:58:48 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:58:48 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:58:55 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A FORWARD -i enp0s8 -o enp0s3 -j ACCEPT
+Nov 10 03:58:55 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:58:55 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:59:12 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A FORWARD -i enp0s3 -o enp0s8 -m state --state RELATED,ESTABLISHED -j ACCEPT
+Nov 10 03:59:12 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:59:12 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:59:24 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+Nov 10 03:59:24 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:59:24 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:59:33 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT
+Nov 10 03:59:33 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:59:33 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 03:59:41 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -i enp0s8 -j ACCEPT
+Nov 10 03:59:41 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 03:59:41 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:01:27 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sysctl -w net.ipv4.ip_forward=1
+Nov 10 04:01:27 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:01:27 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:01:35 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tee /etc/sysctl.d/99-sysctl.conf
+Nov 10 04:01:35 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:01:35 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:01:44 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sysctl --system
+Nov 10 04:01:44 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:01:44 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:01:59 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -P INPUT ACCEPT
+Nov 10 04:01:59 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:01:59 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:02:05 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -P FORWARD ACCEPT
+Nov 10 04:02:05 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:02:05 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:02:11 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -P OUTPUT ACCEPT
+Nov 10 04:02:11 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:02:11 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:02:17 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -F
+Nov 10 04:02:17 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:02:17 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:02:24 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -F
+Nov 10 04:02:24 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:02:24 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:02:31 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A FORWARD -i enp0s8 -o enp0s3 -j ACCEPT
+Nov 10 04:02:31 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:02:31 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:02:40 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A FORWARD -i enp0s3 -o enp0s8 -m state --state RELATED,ESTABLISHED -j ACCEPT
+Nov 10 04:02:40 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:02:40 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:02:50 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -t nat -A POSTROUTING -s 192.168.56.0/24 -o enp0s3 -j MASQUERADE
+Nov 10 04:02:50 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:02:50 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:03:04 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -p tcp --dport 22 -j ACCEPT
+Nov 10 04:03:04 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:03:04 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:03:09 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/iptables -A INPUT -m state --state RELATED,ESTABLISHED -j ACCEPT
+Nov 10 04:03:09 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:03:09 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:03:18 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/apt install -y iptables-persistent
+Nov 10 04:03:18 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:03:20 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:03:25 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/netfilter-persistent save
+Nov 10 04:03:25 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:03:25 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:09:01 padholikho CRON[1619]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 04:09:01 padholikho CRON[1619]: pam_unix(cron:session): session closed for user root
+Nov 10 04:11:44 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tcpdump -i enp0s8 icmp6
+Nov 10 04:11:44 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 04:12:28 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Nov 10 04:17:01 padholikho CRON[1708]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 04:17:01 padholikho CRON[1708]: pam_unix(cron:session): session closed for user root
+Nov 10 04:39:01 padholikho CRON[1799]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 04:39:02 padholikho CRON[1799]: pam_unix(cron:session): session closed for user root
+Nov 10 04:52:31 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tcpdump -i enp0s8 -n icmp
+Nov 10 04:52:31 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Nov 10 05:12:12 padholikho systemd-logind[2123]: New seat seat0.
+Nov 10 05:12:12 padholikho systemd-logind[2123]: Watching system buttons on /dev/input/event0 (Power Button)
+Nov 10 05:12:12 padholikho systemd-logind[2123]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Nov 10 05:12:12 padholikho systemd-logind[2123]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Nov 10 05:12:12 padholikho systemd-logind[2123]: New session 4 of user portal_admin.
+Nov 10 05:12:12 padholikho systemd-logind[2123]: New session 1 of user portal_admin.
+Nov 10 05:17:01 padholikho CRON[2212]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Nov 10 05:17:01 padholikho CRON[2212]: pam_unix(cron:session): session closed for user root
+Jan  1 08:09:07 padholikho sshd[896]: Server listening on 0.0.0.0 port 22.
+Jan  1 08:09:07 padholikho sshd[896]: Server listening on :: port 22.
+Jan  1 08:09:07 padholikho systemd-logind[835]: New seat seat0.
+Jan  1 08:09:07 padholikho systemd-logind[835]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  1 08:09:07 padholikho systemd-logind[835]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  1 08:09:07 padholikho systemd-logind[835]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  1 08:39:01 padholikho CRON[1217]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 08:39:01 padholikho CRON[1217]: pam_unix(cron:session): session closed for user root
+Jan  1 08:39:55 padholikho login[848]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost=  user=portal_admin
+Jan  1 08:39:59 padholikho login[848]: FAILED LOGIN (1) on '/dev/tty1' FOR 'portal_admin', Authentication failure
+Jan  1 09:17:01 padholikho CRON[1429]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 09:17:01 padholikho CRON[1429]: pam_unix(cron:session): session closed for user root
+Jan  1 09:39:01 padholikho CRON[1439]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 09:39:01 padholikho CRON[1439]: pam_unix(cron:session): session closed for user root
+Jan  1 10:39:05 padholikho CRON[1527]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 10:39:05 padholikho CRON[1527]: pam_unix(cron:session): session closed for user root
+Jan  1 11:40:17 padholikho systemd-logind[1731]: New seat seat0.
+Jan  1 11:40:17 padholikho systemd-logind[1731]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  1 11:40:17 padholikho systemd-logind[1731]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  1 11:40:17 padholikho systemd-logind[1731]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  1 11:59:07 padholikho systemd-logind[1857]: New seat seat0.
+Jan  1 11:59:07 padholikho systemd-logind[1857]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  1 11:59:07 padholikho systemd-logind[1857]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  1 11:59:07 padholikho systemd-logind[1857]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  1 12:00:01 padholikho CRON[1921]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 12:00:01 padholikho CRON[1921]: pam_unix(cron:session): session closed for user root
+Jan  1 12:09:01 padholikho CRON[1931]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 12:09:01 padholikho CRON[1931]: pam_unix(cron:session): session closed for user root
+Jan  1 13:16:29 padholikho sshd[874]: Server listening on 0.0.0.0 port 22.
+Jan  1 13:16:29 padholikho sshd[874]: Server listening on :: port 22.
+Jan  1 13:16:29 padholikho systemd-logind[823]: New seat seat0.
+Jan  1 13:16:29 padholikho systemd-logind[823]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  1 13:16:29 padholikho systemd-logind[823]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  1 13:16:29 padholikho systemd-logind[823]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  1 13:17:01 padholikho CRON[1072]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 13:17:01 padholikho CRON[1072]: pam_unix(cron:session): session closed for user root
+Jan  1 13:22:25 padholikho login[833]: pam_unix(login:auth): check pass; user unknown
+Jan  1 13:22:25 padholikho login[833]: pam_unix(login:auth): authentication failure; logname=LOGIN uid=0 euid=0 tty=/dev/tty1 ruser= rhost= 
+Jan  1 13:22:28 padholikho login[833]: FAILED LOGIN (1) on '/dev/tty1' FOR 'UNKNOWN', Authentication failure
+Jan  1 13:22:44 padholikho login[833]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Jan  1 13:22:44 padholikho systemd-logind[823]: New session 2 of user portal_admin.
+Jan  1 13:22:44 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  1 13:39:01 padholikho CRON[1226]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 13:39:01 padholikho CRON[1226]: pam_unix(cron:session): session closed for user root
+Jan  1 14:09:01 padholikho CRON[1322]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 14:09:01 padholikho CRON[1322]: pam_unix(cron:session): session closed for user root
+Jan  1 14:17:01 padholikho CRON[1377]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 14:17:01 padholikho CRON[1377]: pam_unix(cron:session): session closed for user root
+Jan  1 15:39:01 padholikho CRON[1457]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 15:39:01 padholikho CRON[1457]: pam_unix(cron:session): session closed for user root
+Jan  1 16:09:33 padholikho CRON[1511]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 16:09:33 padholikho CRON[1511]: pam_unix(cron:session): session closed for user root
+Jan  1 16:17:01 padholikho CRON[1576]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  1 16:17:01 padholikho CRON[1576]: pam_unix(cron:session): session closed for user root
+Jan  3 18:31:55 padholikho systemd-logind[829]: New seat seat0.
+Jan  3 18:31:55 padholikho systemd-logind[829]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  3 18:31:55 padholikho systemd-logind[829]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  3 18:31:55 padholikho systemd-logind[829]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  3 18:31:55 padholikho sshd[898]: Server listening on 0.0.0.0 port 22.
+Jan  3 18:31:55 padholikho sshd[898]: Server listening on :: port 22.
+Jan  3 18:38:03 padholikho login[847]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Jan  3 18:38:03 padholikho systemd-logind[829]: New session 1 of user portal_admin.
+Jan  3 18:38:03 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  3 18:39:01 padholikho CRON[1262]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  3 18:39:01 padholikho CRON[1262]: pam_unix(cron:session): session closed for user root
+Jan  3 19:11:27 padholikho systemd-logind[825]: New seat seat0.
+Jan  3 19:11:27 padholikho systemd-logind[825]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  3 19:11:27 padholikho systemd-logind[825]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  3 19:11:27 padholikho systemd-logind[825]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  3 19:11:28 padholikho sshd[873]: Server listening on 0.0.0.0 port 22.
+Jan  3 19:11:28 padholikho sshd[873]: Server listening on :: port 22.
+Jan  3 19:11:45 padholikho login[841]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Jan  3 19:11:45 padholikho systemd-logind[825]: New session 1 of user portal_admin.
+Jan  3 19:11:45 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  3 19:15:48 padholikho sshd[1240]: Accepted publickey for portal_admin from 192.168.56.107 port 48946 ssh2: ED25519 SHA256:mxumHseTPyYRgAPVe8G4bhmmhkjIhfapjrc/gPjGpHg
+Jan  3 19:15:48 padholikho sshd[1240]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  3 19:15:48 padholikho systemd-logind[825]: New session 3 of user portal_admin.
+Jan  3 19:17:01 padholikho CRON[1313]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  3 19:17:01 padholikho CRON[1313]: pam_unix(cron:session): session closed for user root
+Jan  3 19:18:35 padholikho sshd[1300]: Received disconnect from 192.168.56.107 port 48946:11: disconnected by user
+Jan  3 19:18:35 padholikho sshd[1300]: Disconnected from user portal_admin 192.168.56.107 port 48946
+Jan  3 19:18:35 padholikho sshd[1240]: pam_unix(sshd:session): session closed for user portal_admin
+Jan  3 19:18:35 padholikho systemd-logind[825]: Session 3 logged out. Waiting for processes to exit.
+Jan  3 19:18:35 padholikho systemd-logind[825]: Removed session 3.
+Jan  3 19:18:44 padholikho sshd[1326]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.56.107  user=portal_admin
+Jan  3 19:18:46 padholikho sshd[1326]: Failed password for portal_admin from 192.168.56.107 port 55936 ssh2
+Jan  3 19:18:51 padholikho sshd[1326]: Accepted password for portal_admin from 192.168.56.107 port 55936 ssh2
+Jan  3 19:18:51 padholikho sshd[1326]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  3 19:18:51 padholikho systemd-logind[825]: New session 5 of user portal_admin.
+Jan  3 19:18:55 padholikho sshd[1386]: Received disconnect from 192.168.56.107 port 55936:11: disconnected by user
+Jan  3 19:18:55 padholikho sshd[1386]: Disconnected from user portal_admin 192.168.56.107 port 55936
+Jan  3 19:18:55 padholikho sshd[1326]: pam_unix(sshd:session): session closed for user portal_admin
+Jan  3 19:18:55 padholikho systemd-logind[825]: Session 5 logged out. Waiting for processes to exit.
+Jan  3 19:18:55 padholikho systemd-logind[825]: Removed session 5.
+Jan  5 10:42:51 padholikho systemd-logind[830]: New seat seat0.
+Jan  5 10:42:51 padholikho systemd-logind[830]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  5 10:42:51 padholikho systemd-logind[830]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  5 10:42:51 padholikho systemd-logind[830]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  5 10:42:51 padholikho sshd[903]: Server listening on 0.0.0.0 port 22.
+Jan  5 10:42:51 padholikho sshd[903]: Server listening on :: port 22.
+Jan  5 10:50:52 padholikho login[847]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Jan  5 10:50:52 padholikho systemd-logind[830]: New session 1 of user portal_admin.
+Jan  5 10:50:52 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  5 10:51:15 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Jan  5 10:51:15 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 10:51:15 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 10:52:30 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tail -n 5 /var/log/auth.log
+Jan  5 10:52:30 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 10:52:30 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 10:55:14 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/adduser India
+Jan  5 10:55:14 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 10:55:14 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 10:55:47 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/adduser sshuser
+Jan  5 10:55:47 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 10:55:47 padholikho groupadd[1284]: group added to /etc/group: name=sshuser, GID=1001
+Jan  5 10:55:47 padholikho groupadd[1284]: group added to /etc/gshadow: name=sshuser
+Jan  5 10:55:47 padholikho groupadd[1284]: new group: name=sshuser, GID=1001
+Jan  5 10:55:47 padholikho useradd[1290]: new user: name=sshuser, UID=1001, GID=1001, home=/home/sshuser, shell=/bin/bash, from=/dev/pts/0
+Jan  5 10:55:54 padholikho passwd[1301]: pam_unix(passwd:chauthtok): password changed for sshuser
+Jan  5 10:56:46 padholikho chfn[1302]: changed user 'sshuser' information
+Jan  5 10:56:48 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 10:59:51 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/grep -i PasswordAuthentication /etc/ssh/sshd_config
+Jan  5 10:59:51 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 10:59:51 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 11:09:01 padholikho CRON[1337]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 11:09:01 padholikho CRON[1337]: pam_unix(cron:session): session closed for user root
+Jan  5 11:16:55 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jan  5 11:16:55 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 11:17:01 padholikho CRON[1396]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 11:17:01 padholikho CRON[1396]: pam_unix(cron:session): session closed for user root
+Jan  5 11:17:48 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 11:17:54 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jan  5 11:17:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 11:18:00 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 11:18:10 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Jan  5 11:18:10 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 11:18:10 padholikho sshd[903]: Received signal 15; terminating.
+Jan  5 11:18:10 padholikho sshd[1407]: Server listening on 0.0.0.0 port 22.
+Jan  5 11:18:10 padholikho sshd[1407]: Server listening on :: port 22.
+Jan  5 11:18:10 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 11:18:26 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Jan  5 11:18:26 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 11:18:26 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 11:19:39 padholikho sshd[1414]: User sshuser from 192.168.1.30 not allowed because not listed in AllowUsers
+Jan  5 11:19:44 padholikho sshd[1414]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.30  user=sshuser
+Jan  5 11:19:47 padholikho sshd[1414]: Failed password for invalid user sshuser from 192.168.1.30 port 43972 ssh2
+Jan  5 11:32:50 padholikho systemd-logind[830]: New seat seat0.
+Jan  5 11:32:50 padholikho systemd-logind[830]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  5 11:32:50 padholikho systemd-logind[830]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  5 11:32:50 padholikho systemd-logind[830]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  5 11:32:50 padholikho sshd[887]: Server listening on 0.0.0.0 port 22.
+Jan  5 11:32:50 padholikho sshd[887]: Server listening on :: port 22.
+Jan  5 11:35:34 padholikho login[845]: pam_unix(login:session): session opened for user portal_admin(uid=1000) by LOGIN(uid=0)
+Jan  5 11:35:34 padholikho systemd-logind[830]: New session 1 of user portal_admin.
+Jan  5 11:35:34 padholikho systemd: pam_unix(systemd-user:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  5 11:39:01 padholikho CRON[1257]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 11:39:01 padholikho CRON[1257]: pam_unix(cron:session): session closed for user root
+Jan  5 12:06:39 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Jan  5 12:06:39 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:06:39 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 12:07:03 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jan  5 12:07:03 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:07:12 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 12:07:59 padholikho sshd[1393]: User sshuser from 192.168.1.30 not allowed because not listed in AllowUsers
+Jan  5 12:08:06 padholikho sshd[1393]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.30  user=sshuser
+Jan  5 12:08:08 padholikho sshd[1393]: Failed password for invalid user sshuser from 192.168.1.30 port 58194 ssh2
+Jan  5 12:08:32 padholikho sshd[1393]: message repeated 2 times: [ Failed password for invalid user sshuser from 192.168.1.30 port 58194 ssh2]
+Jan  5 12:08:33 padholikho sshd[1393]: Connection closed by invalid user sshuser 192.168.1.30 port 58194 [preauth]
+Jan  5 12:08:33 padholikho sshd[1393]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.30  user=sshuser
+Jan  5 12:09:01 padholikho CRON[1395]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 12:09:01 padholikho CRON[1395]: pam_unix(cron:session): session closed for user root
+Jan  5 12:32:40 padholikho systemd-logind[1483]: New seat seat0.
+Jan  5 12:32:40 padholikho systemd-logind[1483]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  5 12:32:40 padholikho systemd-logind[1483]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  5 12:32:40 padholikho systemd-logind[1483]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  5 12:32:40 padholikho systemd-logind[1483]: New session 1 of user portal_admin.
+Jan  5 12:33:16 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/passwd sshuser
+Jan  5 12:33:16 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:33:30 padholikho passwd[1553]: pam_unix(passwd:chauthtok): password changed for sshuser
+Jan  5 12:33:30 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 12:33:55 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/passwd -S sshuser
+Jan  5 12:33:55 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:33:55 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 12:34:25 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/nano /etc/ssh/sshd_config
+Jan  5 12:34:25 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:35:18 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 12:35:29 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl restart ssh
+Jan  5 12:35:29 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:35:29 padholikho sshd[887]: Received signal 15; terminating.
+Jan  5 12:35:29 padholikho sshd[1574]: Server listening on 0.0.0.0 port 22.
+Jan  5 12:35:29 padholikho sshd[1574]: Server listening on :: port 22.
+Jan  5 12:35:29 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 12:36:02 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sshd -T
+Jan  5 12:36:02 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:36:02 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 12:36:27 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Jan  5 12:36:27 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 12:36:51 padholikho sshd[1583]: Accepted password for sshuser from 192.168.1.30 port 34196 ssh2
+Jan  5 12:36:51 padholikho sshd[1583]: pam_unix(sshd:session): session opened for user sshuser(uid=1001) by (uid=0)
+Jan  5 12:36:51 padholikho systemd-logind[1483]: New session 5 of user sshuser.
+Jan  5 12:36:51 padholikho systemd: pam_unix(systemd-user:session): session opened for user sshuser(uid=1001) by (uid=0)
+Jan  5 12:39:01 padholikho CRON[1711]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 12:39:01 padholikho CRON[1711]: pam_unix(cron:session): session closed for user root
+Jan  5 12:52:08 padholikho sudo:  sshuser : user NOT in sudoers ; TTY=pts/1 ; PWD=/home/sshuser ; USER=root ; COMMAND=/usr/sbin/sshd -T
+Jan  5 13:02:15 padholikho sshd[1692]: Received disconnect from 192.168.1.30 port 34196:11: disconnected by user
+Jan  5 13:02:15 padholikho sshd[1692]: Disconnected from user sshuser 192.168.1.30 port 34196
+Jan  5 13:02:15 padholikho sshd[1583]: pam_unix(sshd:session): session closed for user sshuser
+Jan  5 13:02:15 padholikho systemd-logind[1483]: Session 5 logged out. Waiting for processes to exit.
+Jan  5 13:02:15 padholikho systemd-logind[1483]: Removed session 5.
+Jan  5 13:02:42 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 13:02:51 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/tail -f /var/log/auth.log
+Jan  5 13:02:51 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 13:02:59 padholikho sshd[1789]: Received disconnect from 192.168.1.30 port 42910:11: Bye Bye [preauth]
+Jan  5 13:02:59 padholikho sshd[1789]: Disconnected from authenticating user sshuser 192.168.1.30 port 42910 [preauth]
+Jan  5 13:02:59 padholikho sshd[1794]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.30  user=sshuser
+Jan  5 13:03:00 padholikho sshd[1791]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.30  user=sshuser
+Jan  5 13:03:00 padholikho sshd[1793]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.30  user=sshuser
+Jan  5 13:03:00 padholikho sshd[1792]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=192.168.1.30  user=sshuser
+Jan  5 13:03:01 padholikho sshd[1794]: Failed password for sshuser from 192.168.1.30 port 42952 ssh2
+Jan  5 13:03:01 padholikho sshd[1791]: Failed password for sshuser from 192.168.1.30 port 42922 ssh2
+Jan  5 13:03:01 padholikho sshd[1793]: Failed password for sshuser from 192.168.1.30 port 42936 ssh2
+Jan  5 13:03:01 padholikho sshd[1792]: Failed password for sshuser from 192.168.1.30 port 42926 ssh2
+Jan  5 13:03:02 padholikho sshd[1794]: Accepted password for sshuser from 192.168.1.30 port 42952 ssh2
+Jan  5 13:03:02 padholikho sshd[1794]: pam_unix(sshd:session): session opened for user sshuser(uid=1001) by (uid=0)
+Jan  5 13:03:02 padholikho sshd[1791]: Connection closed by authenticating user sshuser 192.168.1.30 port 42922 [preauth]
+Jan  5 13:03:02 padholikho sshd[1793]: Connection closed by authenticating user sshuser 192.168.1.30 port 42936 [preauth]
+Jan  5 13:03:02 padholikho sshd[1792]: Connection closed by authenticating user sshuser 192.168.1.30 port 42926 [preauth]
+Jan  5 13:03:02 padholikho systemd-logind[1483]: New session 8 of user sshuser.
+Jan  5 13:03:02 padholikho systemd: pam_unix(systemd-user:session): session opened for user sshuser(uid=1001) by (uid=0)
+Jan  5 13:03:03 padholikho sshd[1794]: pam_unix(sshd:session): session closed for user sshuser
+Jan  5 13:03:03 padholikho systemd-logind[1483]: Session 8 logged out. Waiting for processes to exit.
+Jan  5 13:03:03 padholikho systemd-logind[1483]: Removed session 8.
+Jan  5 13:09:02 padholikho CRON[1872]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 13:09:02 padholikho CRON[1872]: pam_unix(cron:session): session closed for user root
+Jan  5 13:23:05 padholikho systemd-logind[1949]: New seat seat0.
+Jan  5 13:23:05 padholikho systemd-logind[1949]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  5 13:23:05 padholikho systemd-logind[1949]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  5 13:23:05 padholikho systemd-logind[1949]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  5 13:23:05 padholikho systemd-logind[1949]: New session 1 of user portal_admin.
+Jan  5 14:02:55 padholikho systemd-logind[2071]: New seat seat0.
+Jan  5 14:02:55 padholikho systemd-logind[2071]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  5 14:02:55 padholikho systemd-logind[2071]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  5 14:02:55 padholikho systemd-logind[2071]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  5 14:02:55 padholikho systemd-logind[2071]: New session 1 of user portal_admin.
+Jan  5 15:08:39 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 15:09:01 padholikho CRON[2266]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 15:09:01 padholikho CRON[2266]: pam_unix(cron:session): session closed for user root
+Jan  5 15:09:29 padholikho sudo: pam_unix(sudo:auth): authentication failure; logname=portal_admin uid=1000 euid=0 tty=/dev/tty1 ruser=portal_admin rhost=  user=portal_admin
+Jan  5 15:10:23 padholikho sudo: portal_admin : TTY=tty1 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/grep sshuser /var/log/auth.log
+Jan  5 15:10:23 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 15:10:23 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 15:16:27 padholikho sshd[2339]: Accepted password for sshuser from 192.168.1.30 port 41080 ssh2
+Jan  5 15:16:27 padholikho sshd[2339]: pam_unix(sshd:session): session opened for user sshuser(uid=1001) by (uid=0)
+Jan  5 15:16:27 padholikho systemd-logind[2071]: New session 12 of user sshuser.
+Jan  5 15:16:27 padholikho systemd: pam_unix(systemd-user:session): session opened for user sshuser(uid=1001) by (uid=0)
+Jan  5 15:17:01 padholikho CRON[2460]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 15:17:01 padholikho CRON[2460]: pam_unix(cron:session): session closed for user root
+Jan  5 15:17:36 padholikho sudo:  sshuser : user NOT in sudoers ; TTY=pts/0 ; PWD=/home/sshuser ; USER=root ; COMMAND=/usr/bin/grep sshuser /var/log/auth.log
+Jan  5 15:18:08 padholikho sshd[2449]: Received disconnect from 192.168.1.30 port 41080:11: disconnected by user
+Jan  5 15:18:08 padholikho sshd[2449]: Disconnected from user sshuser 192.168.1.30 port 41080
+Jan  5 15:18:08 padholikho sshd[2339]: pam_unix(sshd:session): session closed for user sshuser
+Jan  5 15:18:08 padholikho systemd-logind[2071]: Session 12 logged out. Waiting for processes to exit.
+Jan  5 15:18:08 padholikho systemd-logind[2071]: Removed session 12.
+Jan  5 15:18:19 padholikho systemd: pam_unix(systemd-user:session): session closed for user sshuser
+Jan  5 15:18:27 padholikho sshd[2471]: Accepted password for portal_admin from 192.168.1.30 port 39632 ssh2
+Jan  5 15:18:27 padholikho sshd[2471]: pam_unix(sshd:session): session opened for user portal_admin(uid=1000) by (uid=0)
+Jan  5 15:18:27 padholikho systemd-logind[2071]: New session 15 of user portal_admin.
+Jan  5 15:19:33 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/grep sshuser /var/log/auth.log
+Jan  5 15:19:33 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 15:19:33 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 15:21:15 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/grep 'Failed password for sshuser' /var/log/auth.log
+Jan  5 15:21:15 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 15:21:15 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 15:21:25 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/grep 'Accepted password for sshuser' /var/log/auth.log
+Jan  5 15:21:25 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 15:21:25 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 15:39:01 padholikho CRON[2561]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 15:39:01 padholikho CRON[2561]: pam_unix(cron:session): session closed for user root
+Jan  5 16:09:01 padholikho CRON[2625]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 16:09:01 padholikho CRON[2625]: pam_unix(cron:session): session closed for user root
+Jan  5 16:17:01 padholikho CRON[2680]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 16:17:01 padholikho CRON[2680]: pam_unix(cron:session): session closed for user root
+Jan  5 16:39:01 padholikho CRON[2777]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 16:39:01 padholikho CRON[2777]: pam_unix(cron:session): session closed for user root
+Jan  5 17:33:12 padholikho systemd-logind[2914]: New seat seat0.
+Jan  5 17:33:12 padholikho systemd-logind[2914]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  5 17:33:12 padholikho systemd-logind[2914]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  5 17:33:12 padholikho systemd-logind[2914]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  5 17:33:12 padholikho systemd-logind[2914]: New session 15 of user portal_admin.
+Jan  5 17:33:12 padholikho systemd-logind[2914]: New session 1 of user portal_admin.
+Jan  5 17:56:08 padholikho systemd-logind[3080]: New seat seat0.
+Jan  5 17:56:08 padholikho systemd-logind[3080]: Watching system buttons on /dev/input/event0 (Power Button)
+Jan  5 17:56:08 padholikho systemd-logind[3080]: Watching system buttons on /dev/input/event1 (Sleep Button)
+Jan  5 17:56:08 padholikho systemd-logind[3080]: Watching system buttons on /dev/input/event2 (AT Translated Set 2 keyboard)
+Jan  5 17:56:08 padholikho systemd-logind[3080]: New session 1 of user portal_admin.
+Jan  5 17:56:08 padholikho systemd-logind[3080]: New session 15 of user portal_admin.
+Jan  5 17:56:26 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Jan  5 17:56:26 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 17:56:40 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 17:56:52 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/sbin/sshd -T
+Jan  5 17:56:52 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
+Jan  5 17:56:52 padholikho sudo: pam_unix(sudo:session): session closed for user root
+Jan  5 18:11:12 padholikho CRON[3172]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Jan  5 18:11:12 padholikho CRON[3172]: pam_unix(cron:session): session closed for user root
+Jan  5 18:13:16 padholikho sudo: pam_unix(sudo:auth): authentication failure; logname=portal_admin uid=1000 euid=0 tty=/dev/pts/0 ruser=portal_admin rhost=  user=portal_admin
+Jan  5 18:13:54 padholikho sudo: portal_admin : TTY=pts/0 ; PWD=/home/portal_admin ; USER=root ; COMMAND=/usr/bin/cp /var/log/auth.log /home/portal_admin/bluetrace-evidence/phase1/auth.log.baseline
+Jan  5 18:13:54 padholikho sudo: pam_unix(sudo:session): session opened for user root(uid=0) by portal_admin(uid=1000)
